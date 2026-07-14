@@ -68,7 +68,6 @@ body{
     position: relative;
 }
 
-/* Image */
 .hero-image img{
     width: 100%;
     height: 100vh;
@@ -77,7 +76,6 @@ body{
     filter: brightness(40%);
 }
 
-/* Text */
 .hero-content{
     position: absolute;
     top: 30%;
@@ -102,7 +100,7 @@ body{
     line-height: 1.6;
 }
 
-/* Button */
+
 .hero-button{
     position: absolute;
     top: 72%;
@@ -119,4 +117,83 @@ body{
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    bottom: 30px;
+
 }
+
+
+
+
+
+
+.speakers-section{
+    width:100%;
+    padding:80px 20px;
+    background:#fff;
+}
+
+.speakers-wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.speakers-title{
+    text-align:center;
+    font-size:48px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:50px;
+}
+
+.speakers-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.speaker-card{
+    background:#fff;
+    border:1px solid #e7e7e7;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.3s ease;
+}
+
+.speaker-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.speaker-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    display:block;
+}
+
+.speaker-info{
+    padding:18px;
+}
+
+.speaker-tag{
+    display:block;
+    font-size:11px;
+    color:#4A6CF7;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:8px;
+    letter-spacing:1px;
+}
+
+.speaker-info h3{
+    font-size:22px;
+    color:#111;
+    margin-bottom:8px;
+}
+
+.speaker-info p{
+    font-size:15px;
+    color:#777;
+    line-height:1.6;
+}
+
