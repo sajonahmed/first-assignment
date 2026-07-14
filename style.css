@@ -333,6 +333,110 @@ button{
 
 
 
+.cta-section{
+    position:relative;
+    overflow:hidden;
+    padding:100px 20px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#f7f9ff,#eef4ff);
+    margin:80px auto;
+    max-width:1200px;
+}
+
+.cta-content{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    position:relative;
+    z-index:2;
+}
+
+.cta-tag{
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:25px;
+    letter-spacing:1px;
+}
+
+.cta-content h2{
+    font-size:52px;
+    color:#162337;
+    margin-bottom:20px;
+}
+
+.cta-content p{
+    font-size:18px;
+    color:#667085;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-primary{
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    padding:16px 38px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+}
+
+.btn-secondary{
+    border:2px solid #2563eb;
+    color:#2563eb;
+    text-decoration:none;
+    padding:16px 38px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-secondary:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+/* Blur Background */
+
+.cta-bg{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(80px);
+}
+
+.cta-bg.one{
+    width:280px;
+    height:280px;
+    background:#6ea8fe;
+    top:-80px;
+    left:-60px;
+}
+
+.cta-bg.two{
+    width:300px;
+    height:300px;
+    background:#dbeafe;
+    right:-100px;
+    bottom:-100px;
+}
+
+
 
 
 
